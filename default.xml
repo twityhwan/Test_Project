@@ -4,7 +4,12 @@
         name="origin"
         fetch="ssh://git@github.com/"
         review="ssh://twityhwan@review.gerrithub.io:29418/"/>
+    <remote
+        name="html5"
+        fetch="ssh://git@github.com/"
+        review="ssh://twityhwan@review.gerrithub.io:29418/twityhwa/html5"/>
     <default revision="master" remote="origin"/>
+
     <project
         path="bash"
         name="twityhwan/bash"/>
@@ -13,5 +18,6 @@
         name="twityhwan/C_Practice"/>
     <project
         path="html5"
-        name="twityhwan/html5"/>
+        name="twityhwan/html5"
+        remote="html5"/>
 </manifest>
