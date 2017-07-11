@@ -2,12 +2,11 @@
 <manifest>
     <remote
         name="origin"
-        fetch="ssh://git@github.com/"
-        review="ssh://twityhwan@review.gerrithub.io:29418/"/>
+        fetch="ssh://git@github.com/"/>
     <remote
         name="html5"
         fetch="ssh://git@github.com/"
-        review="ssh://twityhwan@review.gerrithub.io:29418/twityhwa/html5"/>
+        review="https://twityhwan@review.gerrithub.io/a/twityhwan/html5"/>
     <default revision="master" remote="origin"/>
 
     <project
