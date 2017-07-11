@@ -6,7 +6,7 @@
     <remote
         name="html5"
         fetch="ssh://git@github.com/"
-        review="review.gerrithub.io:29418"/>
+        review="review.gerrithub.io"/>
     <default revision="master" remote="origin"/>
 
     <project
