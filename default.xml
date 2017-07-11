@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="origin" fetch="ssh://git@github.com/"/>
+    <remote
+        name="origin"
+        fetch="ssh://git@github.com/"
+        review="ssh://twityhwan@review.gerrithub.io:29418/"/>
     <default revision="master" remote="origin"/>
     <project path="bash" name="twityhwan/bash"/>
     <project path="c" name="twityhwan/C_Practice"/>
