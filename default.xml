@@ -7,15 +7,11 @@
     <default revision="master" remote="origin"/>
     <project
         path="bash"
-        name="twityhwan/bash"
-        dest-branch="twityhwan/bash"/>
+        name="twityhwan/bash"/>
     <project
         path="c"
-        name="twityhwan/C_Practice"
-        dest-branch="twityhwan/C_Practice"/>
+        name="twityhwan/C_Practice"/>
     <project
         path="html5"
-        name="twityhwan/html5"
-        dest-branch="twityhwan/html5"
-        />
+        name="twityhwan/html5"/>
 </manifest>
