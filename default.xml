@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="origin" fetch="."/>
+    <remote name="origin" fetch="ssh://git@github.com/"/>
     <default revision="master" remote="origin"/>
-    <project path="bash" name="bash"/>
-    <project path="c" name="C_Practice"/>
-    <project path="html5" name="html5"/>
+    <project path="bash" name="twityhwan/bash"/>
+    <project path="c" name="twityhwan/C_Practice"/>
+    <project path="html5" name="twityhwan/html5"/>
 </manifest>
