@@ -5,7 +5,17 @@
         fetch="ssh://git@github.com/"
         review="ssh://twityhwan@review.gerrithub.io:29418/"/>
     <default revision="master" remote="origin"/>
-    <project path="bash" name="twityhwan/bash"/>
-    <project path="c" name="twityhwan/C_Practice"/>
-    <project path="html5" name="twityhwan/html5"/>
+    <project
+        path="bash"
+        name="twityhwan/bash"
+        dest-branch="twityhwan/bash"/>
+    <project
+        path="c"
+        name="twityhwan/C_Practice"
+        dest-branch="twityhwan/C_Practice"/>
+    <project
+        path="html5"
+        name="twityhwan/html5"
+        dest-branch="twityhwan/html5"
+        />
 </manifest>
