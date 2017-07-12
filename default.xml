@@ -2,9 +2,6 @@
 <manifest>
     <remote
         name="origin"
-        fetch="ssh://git@github.com/"/>
-    <remote
-        name="html5"
         fetch="ssh://git@github.com/"
         review="review.gerrithub.io"/>
     <default revision="master" remote="origin"/>
@@ -17,6 +14,5 @@
         name="twityhwan/C_Practice"/>
     <project
         path="html5"
-        name="twityhwan/html5"
-        remote="html5"/>
+        name="twityhwan/html5"/>
 </manifest>
